@@ -1,0 +1,44 @@
+body {
+ margin:0;
+ padding:0;
+ background-color: black;
+ color:white;
+ overflow:inherit;
+}
+
+:root{
+    --main-col:skyblue:
+}
+.main-col{
+    color:rgb(0, 134, 237);
+}
+
+.cursur{
+    cursor: pointer;
+}
+
+.opacityDown:hover{
+    opacity:0.6;
+}
+.opacityUp:hover{
+    opacity:1;
+}
+.opacityDowned{
+    opacity:0.7;
+}
+.opacityUp:hover{
+    opacity:1;
+}
+/* .opacityDown:hover{
+    opacity:0.6;
+} */
+:root{
+    --bg-main-1:black;
+    --bg-main-2:#3d3d3d;
+}
+.zoom{
+    transition: tranform .2s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
